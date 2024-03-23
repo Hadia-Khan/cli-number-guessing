@@ -1,9 +1,10 @@
 {
-  "name": "cli-number-guessing",
+  "name": "hk_cli-number-guessing",
   "version": "1.0.0",
   "description": "This is cli based number guessing game",
   "main": "index.js",
   "type": "module",
+  "bin":"index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

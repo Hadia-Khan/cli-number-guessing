@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let randomNumber = Math.floor(Math.random() * 6 + 1);
 let answer = await inquirer.prompt([
